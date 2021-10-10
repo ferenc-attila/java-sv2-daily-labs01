@@ -29,7 +29,7 @@ public class Store {
         return stock;
     }
 
-    public int dipatch (int amount) {
+    public int dispatch (int amount) {
         stock = getStock() - amount;
         return stock;
     }
